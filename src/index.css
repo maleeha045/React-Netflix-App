@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.heading{
+   margin-left: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+   /* margin-top: 40px; */
+   padding-bottom: 6%;
+   padding-top: 2%;
+   font-family: 'Megrim', cursive;
+   /* font-family: 'Faster One', cursive; */
+       width: 100%;
+    height:30px;
+    background-color: white;
+}
+ body{
+  background-color: rgb(148, 173, 165);
+} 
+.cards{
+    background-color: rgb(158, 168, 164);
+    /* overflow: hidden; */
+width: 100%;
+    height: auto;
+
+}
+ 
+
+
+.card{
+    
+
+    width:20%;
+   margin: 2%;
+    flex: 0 0 18%;
+
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding-bottom: 25px;
+   font-size: 18px;
+   font-family: 'Poiret One', cursive;
+  transition: 0.5s ease;
+  cursor: pointer;
+  float: left;
+box-shadow: 5px 2px 15px rgb(58, 56, 56);
+}
+.card:hover{
+ transform: scale(1.1);
+ box-shadow: 5px 2px 15px rgb(44, 43, 43);
+
+}
+.card-info{
+    padding-top: 20px;
+    text-align: center;
+  justify-content: center;
+}
+
+.card-img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+background-size: cover;
+overflow: hidden;
+    width:100%;
+    height: 250px;
+
+}
+button{
+    padding: 5px;
+    margin-top: 10px;
+    font-family: 'Faster One', cursive;    border-radius: 5px;
+    border:1px solid rgb(41, 41, 119);
+    cursor: pointer;
+    background-color: rgb(185, 226, 240);
+}
+button:hover{
+    background-color: rgb(99, 117, 143);
+}
